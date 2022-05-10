@@ -1,10 +1,12 @@
 <template>
-  <image src="" mode="widt" />
+  <view>
+    <text>{{ title }}</text>
+  </view>
 </template>
 
 <script setup lang="ts">
 import { ref } from "vue";
-const title = ref("测试");
+let title = ref("测试");
 </script>
 
 <style>
