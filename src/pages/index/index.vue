@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 console.log(process.env.VUE_APP_BASE_URL);
-let title = ref("测试");
+let title = ref("");
 </script>
 
 <style lang="scss" scoped>
